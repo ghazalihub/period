@@ -1,0 +1,708 @@
+{
+  "settings": {
+    "title": "Configura\u00e7\u00f5es",
+    "reminders": "Lembretes",
+    "appLock": "Bloqueio do app",
+    "privacyPolicy": "Pol\u00edtica de privacidade",
+    "about": "Sobre",
+    "theme": "Tema",
+    "calendarView": "Visualiza\u00e7\u00e3o do calend\u00e1rio",
+    "deleteData": "Excluir todos os dados",
+    "screenTitles": {
+      "reminders": "Lembretes",
+      "appLock": "Bloqueio do App",
+      "about": "Sobre",
+      "privacyPolicy": "Pol\u00edtica de privacidade",
+      "calendarView": "Visualiza\u00e7\u00e3o do calend\u00e1rio"
+    },
+    "deleteDataConfirm": {
+      "title": "Excluir todos os dados",
+      "message": "Todos os seus dados ser\u00e3o exclu\u00eddos permanentemente: registro de menstrua\u00e7\u00f5es, sintomas, registros de sa\u00fade, configura\u00e7\u00f5es do app, prefer\u00eancias de tema, configura\u00e7\u00f5es de notifica\u00e7\u00f5es e bloqueio. Esta a\u00e7\u00e3o n\u00e3o pode ser desfeita.",
+      "delete": "Excluir todos os dados",
+      "cancel": "Cancelar",
+      "success": "Sucesso",
+      "successMessage": "Todos os seus dados foram exclu\u00eddos. O app ser\u00e1 reiniciado.",
+      "error": "Erro",
+      "errorMessage": "Falha ao excluir dados. Por favor, tente novamente."
+    },
+    "themeModal": {
+      "title": "Escolher tema"
+    },
+    "themeOptions": {
+      "system": "Padr\u00e3o do sistema",
+      "light": "Claro",
+      "dark": "Escuro"
+    },
+    "appLockSettings": {
+      "unlockApp": "Desbloquear app com biometria",
+      "unlockDescription": "Use a autentica\u00e7\u00e3o biom\u00e9trica do seu dispositivo (por exemplo, impress\u00e3o digital ou Face ID) para desbloquear a Bluma",
+      "noDeviceSecurityDescription": "Voc\u00ea precisa configurar primeiro a autentica\u00e7\u00e3o biom\u00e9trica do seu dispositivo para ativar este recurso.",
+      "error": {
+        "title": "Erro",
+        "message": "Falha ao atualizar configura\u00e7\u00f5es de bloqueio. N\u00e3o foi poss\u00edvel concluir a atualiza\u00e7\u00e3o de seguran\u00e7a. Por favor, tente novamente.",
+        "rewrapFailed": "A configura\u00e7\u00e3o de seguran\u00e7a n\u00e3o p\u00f4de ser aplicada. Seus dados continuam seguros com as configura\u00e7\u00f5es anteriores."
+      }
+    },
+    "lockScreen": {
+      "unlockApp": "Desbloquear Bluma",
+      "unlockButton": "Desbloquear"
+    },
+    "reminderSettings": {
+      "title": "Lembretes",
+      "periodReminder": "Lembrete de menstrua\u00e7\u00e3o",
+      "description": "Receba notifica\u00e7\u00f5es antes da sua pr\u00f3xima menstrua\u00e7\u00e3o",
+      "daysBeforePeriod": "Dias antes da menstrua\u00e7\u00e3o",
+      "days": "{{count}} dia",
+      "days_other": "{{count}} dias",
+      "beforePeriod": "Lembre-me 3 dias antes do prov\u00e1vel in\u00edcio da minha pr\u00f3xima menstrua\u00e7\u00e3o.",
+      "dayOfPeriod": "Lembre-me no dia do in\u00edcio da minha menstrua\u00e7\u00e3o.",
+      "latePeriod": "Lembre-me se minha menstrua\u00e7\u00e3o estiver atrasada.",
+      "reminderTime": "Hor\u00e1rio do lembrete",
+      "loading": "Carregando configura\u00e7\u00f5es de notifica\u00e7\u00f5es...",
+      "loadError": "N\u00e3o foi poss\u00edvel carregar as configura\u00e7\u00f5es de notifica\u00e7\u00f5es",
+      "updateError": "Falha ao atualizar configura\u00e7\u00f5es de notifica\u00e7\u00f5es",
+      "permissionDialog": {
+        "title": "Ativar notifica\u00e7\u00f5es",
+        "message": "Para receber lembretes de menstrua\u00e7\u00e3o, ative as notifica\u00e7\u00f5es da Bluma nas configura\u00e7\u00f5es do seu dispositivo.",
+        "cancel": "Cancelar",
+        "openSettings": "Abrir configura\u00e7\u00f5es"
+      }
+    },
+    "aboutScreen": {
+      "title": "Sobre a Bluma",
+      "versionLabel": "Vers\u00e3o",
+      "whatIs": {
+        "description": "A Bluma \u00e9 um app de registro de menstrua\u00e7\u00e3o com foco em privacidade, feito para ajudar voc\u00ea a entender e gerenciar seu ciclo menstrual."
+      },
+      "features": {
+        "title": "Recursos",
+        "periodTracking": "Registro e acompanhamento de menstrua\u00e7\u00f5es",
+        "predictions": "Previs\u00f5es de ovula\u00e7\u00e3o e janela f\u00e9rtil",
+        "symptomsTracking": "Registro de sintomas e humor",
+        "statistics": "Estat\u00edsticas e hist\u00f3rico do ciclo",
+        "insights": "Informa\u00e7\u00f5es sobre as fases do ciclo",
+        "reminders": "Lembretes de menstrua\u00e7\u00e3o",
+        "lock": "Bloqueio biom\u00e9trico do app",
+        "theme": "Suporte a tema escuro e claro"
+      },
+      "privacyFirst": {
+        "title": "Privacidade em primeiro lugar",
+        "description": "A Bluma foi feita com uma abordagem centrada em privacidade:",
+        "local": "Todos os dados s\u00e3o armazenados localmente e criptografados",
+        "noTransmission": "Sem transmiss\u00e3o de dados para servidores externos",
+        "noTracking": "Sem an\u00e1lises ou rastreamento de terceiros",
+        "noAds": "Sem publicidade",
+        "noAccount": "Sem necessidade de conta"
+      },
+      "openSource": {
+        "title": "C\u00f3digo aberto",
+        "description": "A Bluma \u00e9 de c\u00f3digo aberto e licenciada sob a",
+        "warranty": "A Bluma \u00e9 distribu\u00edda na esperan\u00e7a de ser \u00fatil, mas SEM NENHUMA GARANTIA; sem mesmo a garantia impl\u00edcita de COMERCIALIZA\u00c7\u00c3O ou ADEQUA\u00c7\u00c3O A UM PROP\u00d3SITO ESPEC\u00cdFICO.",
+        "viewSource": "Ver o c\u00f3digo no GitHub"
+      },
+      "developer": {
+        "title": "Sobre a desenvolvedora",
+        "description": "A Bluma foi criada pela Maribel, designer de produto e desenvolvedora apaixonada por software que respeita a privacidade. A Bluma foi feita para oferecer uma alternativa confi\u00e1vel aos apps de registro de menstrua\u00e7\u00e3o que coletam e monetizam dados de sa\u00fade pessoais."
+      },
+      "technical": {
+        "title": "Detalhes t\u00e9cnicos",
+        "description": "A Bluma \u00e9 feita com tecnologias modernas para garantir confiabilidade e desempenho:",
+        "framework": "Framework: React Native com Expo SDK 54",
+        "database": "Banco de dados: SQLite com Drizzle ORM",
+        "encryption": "Criptografia: SQLCipher",
+        "architecture": "Arquitetura: Offline-first, sem servidor",
+        "language": "Linguagem de programa\u00e7\u00e3o: TypeScript",
+        "platform": "Plataforma: Android"
+      },
+      "footer": {
+        "prefix": "Para suporte ou feedback, entre em contato: ",
+        "email": "help.bluma@gmail.com",
+        "suffix": "."
+      }
+    },
+    "privacyPolicyScreen": {
+      "title": "Pol\u00edtica de privacidade",
+      "lastUpdated": "\u00daltima atualiza\u00e7\u00e3o:",
+      "introduction": {
+        "description": "Esta Pol\u00edtica de Privacidade descreve como o app Bluma usa e protege seus dados pessoais que voc\u00ea gera e armazena no app."
+      },
+      "dataUse": {
+        "title": "1. Uso de dados",
+        "descriptionPrefix": "A Bluma respeita sua privacidade. N\u00e3o h\u00e1 coleta de dados de uso ou informa\u00e7\u00f5es pessoais. A Bluma armazena dados relacionados \u00e0 sua sa\u00fade menstrual",
+        "descriptionBold": "localmente no seu dispositivo",
+        "descriptionSuffix": ", e isso inclui:",
+        "periodDates": "Datas de in\u00edcio e fim da menstrua\u00e7\u00e3o",
+        "cycleLength": "Dura\u00e7\u00e3o do ciclo e da menstrua\u00e7\u00e3o",
+        "symptoms": "Dados de sintomas e humor",
+        "notes": "Notas e observa\u00e7\u00f5es pessoais",
+        "settings": "Prefer\u00eancias e configura\u00e7\u00f5es do app",
+        "usage": "Esses dados s\u00e3o usados apenas para fornecer previs\u00f5es de menstrua\u00e7\u00e3o, informa\u00e7\u00f5es sobre o ciclo e recursos de acompanhamento personalizados. N\u00e3o compartilhamos, vendemos nem transmitimos seus dados de sa\u00fade pessoais a terceiros.",
+        "deletion": "Se quiser excluir todos os dados do app, voc\u00ea pode fazer isso nas configura\u00e7\u00f5es, selecionando \"Excluir todos os dados\". Isso vai apagar permanentemente todos os dados de registro, registros de sa\u00fade e configura\u00e7\u00f5es do app. Voc\u00ea tamb\u00e9m pode excluir todos os dados desinstalando o app."
+      },
+      "permissions": {
+        "title": "2. Permiss\u00f5es",
+        "description": "A Bluma pode solicitar as seguintes permiss\u00f5es:",
+        "reminders": "",
+        "remindersBold": "Lembretes",
+        "remindersSuffix": ": Para enviar lembretes de menstrua\u00e7\u00e3o.",
+        "biometric": "",
+        "biometricBold": "Autentica\u00e7\u00e3o biom\u00e9trica",
+        "biometricSuffix": ": Para proteger o app com impress\u00e3o digital ou reconhecimento facial.",
+        "revoke": "Se n\u00e3o quiser usar nenhuma dessas permiss\u00f5es, voc\u00ea pode revog\u00e1-las a qualquer momento nas configura\u00e7\u00f5es do seu dispositivo."
+      },
+      "transparency": {
+        "title": "3. Transpar\u00eancia",
+        "description": "Acreditamos em total transpar\u00eancia sobre como seus dados s\u00e3o tratados:",
+        "localStorage": "Todos os seus dados s\u00e3o armazenados localmente e criptografados",
+        "noTransmission": "Nenhum dado \u00e9 transmitido para servidores externos",
+        "noAnalytics": "N\u00e3o usamos servi\u00e7os de an\u00e1lise ou rastreamento",
+        "noAds": "Sem publicidade ou coleta de dados de terceiros",
+        "control": "Voc\u00ea tem controle total sobre seus dados e pode exclu\u00ed-los a qualquer momento nas configura\u00e7\u00f5es."
+      },
+      "footer": {
+        "prefix": "Se tiver d\u00favidas sobre esta pol\u00edtica de privacidade ou sobre como tratamos seus dados, entre em contato em ",
+        "email": "help.bluma@gmail.com",
+        "suffix": "."
+      }
+    }
+  },
+  "stats": {
+    "title": "Estat\u00edsticas",
+    "cycleStatistics": "Estat\u00edsticas do ciclo",
+    "screenTitles": {
+      "cycleDetails": "Detalhes do ciclo"
+    },
+    "emptyState": {
+      "title": "Ainda sem dados do ciclo",
+      "subtitle": "Registre pelo menos 2 menstrua\u00e7\u00f5es para ver suas estat\u00edsticas e hist\u00f3rico pessoais.",
+      "logPeriodButton": "Registrar menstrua\u00e7\u00e3o"
+    },
+    "cycleHistory": {
+      "title": "Hist\u00f3rico do ciclo",
+      "noCycles": "Ainda n\u00e3o h\u00e1 dados suficientes",
+      "cycleLength": "Dura\u00e7\u00e3o do ciclo",
+      "periodLength": "Dura\u00e7\u00e3o da menstrua\u00e7\u00e3o",
+      "days": "{{count}} dia",
+      "days_other": "{{count}} dias",
+      "inProgress": "Em andamento",
+      "loggedCycles": "ciclos registrados",
+      "currentCycle": "Ciclo atual",
+      "unknown": "Desconhecido"
+    },
+    "cycleDetails": {
+      "cycleNormalRange": "A dura\u00e7\u00e3o deste ciclo estava dentro da faixa normal (21-35 dias)",
+      "cycleIrregularRange": "A dura\u00e7\u00e3o deste ciclo est\u00e1 fora da faixa normal (21-35 dias)",
+      "periodNormalRange": "A dura\u00e7\u00e3o desta menstrua\u00e7\u00e3o estava dentro da faixa normal (2-7 dias)",
+      "periodIrregularRange": "A dura\u00e7\u00e3o desta menstrua\u00e7\u00e3o est\u00e1 fora da faixa normal (2-7 dias)",
+      "periodOverdue": "Sua menstrua\u00e7\u00e3o est\u00e1 {{count}} dia atrasada.",
+      "periodOverdue_other": "Sua menstrua\u00e7\u00e3o est\u00e1 {{count}} dias atrasada.",
+      "periodOverdueBefore": "Sua menstrua\u00e7\u00e3o est\u00e1 ",
+      "periodOverdueAfter": " atrasada.",
+      "learnAboutLatePeriod": "Saiba por que sua menstrua\u00e7\u00e3o pode estar atrasada",
+      "cycleLasted": "O ciclo durou de {{startDate}} a {{endDate}}",
+      "cycleLastedBefore": "O ciclo durou de ",
+      "cycleLastedMiddle": " a "
+    },
+    "averages": {
+      "title": "M\u00e9dias",
+      "cycleLength": "Dura\u00e7\u00e3o m\u00e9dia do ciclo",
+      "periodLength": "Dura\u00e7\u00e3o m\u00e9dia da menstrua\u00e7\u00e3o",
+      "days": "{{count}} dia",
+      "days_other": "{{count}} dias"
+    },
+    "predictions": {
+      "title": "Previs\u00f5es",
+      "nextPeriod": "Pr\u00f3xima menstrua\u00e7\u00e3o",
+      "nextOvulation": "Pr\u00f3xima ovula\u00e7\u00e3o",
+      "fertileWindow": "Janela f\u00e9rtil"
+    }
+  },
+  "calendar": {
+    "title": "Calend\u00e1rio",
+    "selectDate": "Selecione uma data",
+    "periodDates": "Datas da menstrua\u00e7\u00e3o",
+    "ovulationDay": "Dia da ovula\u00e7\u00e3o",
+    "fertileWindow": "Janela f\u00e9rtil",
+    "prediction": "Previs\u00e3o",
+    "today": "Hoje",
+    "editPeriod": {
+      "title": "Editar Per\u00edodo",
+      "editPeriodDates": "Editar datas da menstrua\u00e7\u00e3o",
+      "selectDates": "Selecione as datas da sua menstrua\u00e7\u00e3o",
+      "instructions": "Toque no calend\u00e1rio para selecionar ou desmarcar datas",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "successMessage": "Datas da menstrua\u00e7\u00e3o salvas",
+      "errorMessage": "Erro. Por favor, tente novamente.",
+      "delete": "Excluir per\u00edodo",
+      "confirmDelete": "Tem certeza de que deseja excluir este per\u00edodo?"
+    },
+    "view": {
+      "title": "Visualiza\u00e7\u00e3o do calend\u00e1rio",
+      "displayOptions": "Op\u00e7\u00f5es de exibi\u00e7\u00e3o",
+      "showOvulation": "Mostrar dia da ovula\u00e7\u00e3o e janela f\u00e9rtil no calend\u00e1rio",
+      "showFuturePeriods": "Mostrar previs\u00e3o de menstrua\u00e7\u00f5es futuras no calend\u00e1rio",
+      "iconsShown": "\u00cdcones exibidos no calend\u00e1rio",
+      "loadingSettings": "Carregando configura\u00e7\u00f5es do calend\u00e1rio..."
+    },
+    "legend": {
+      "periodDays": "Dias de menstrua\u00e7\u00e3o",
+      "futurePrediction": "Previs\u00e3o de menstrua\u00e7\u00e3o futura",
+      "ovulationDay": "Dia da ovula\u00e7\u00e3o",
+      "fertileWindow": "Janela f\u00e9rtil",
+      "symptomsIndicator": "Indicador de registro de sintomas"
+    },
+    "accessibility": {
+      "tapToDeselect": "Toque para desmarcar",
+      "tapToSelectPeriod": "Toque para selecionar como dia de menstrua\u00e7\u00e3o",
+      "hasHealthLogs": "tem registros de sa\u00fade",
+      "selected": "selecionado",
+      "tapToView": "Toque para ver detalhes"
+    }
+  },
+  "common": {
+    "buttons": {
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "delete": "Excluir",
+      "getStarted": "Come\u00e7ar",
+      "next": "Pr\u00f3ximo",
+      "back": "Voltar",
+      "done": "Conclu\u00eddo",
+      "edit": "Editar",
+      "close": "Fechar",
+      "confirm": "Confirmar",
+      "continue": "Continuar",
+      "resetAllData": "Redefinir Todos os Dados"
+    },
+    "errors": {
+      "generic": "Algo deu errado. Por favor, tente novamente.",
+      "loadFailed": "Falha ao carregar dados",
+      "saveFailed": "Falha ao salvar",
+      "deleteFailed": "Falha ao excluir",
+      "database": {
+        "title": "N\u00e3o foi poss\u00edvel iniciar o app",
+        "generic": "Encontramos um problema ao iniciar o app. Por favor, tente reiniciar.",
+        "orphaned": "Sua chave de criptografia foi perdida, mas seu banco de dados criptografado ainda existe. Seus dados anteriores n\u00e3o podem ser recuperados e precisam ser redefinidos para continuar usando o app."
+      }
+    },
+    "resetData": {
+      "title": "Redefinir Todos os Dados Locais",
+      "message": "Isso vai excluir permanentemente todos os seus dados de sa\u00fade, hist\u00f3rico de per\u00edodo e configura\u00e7\u00f5es. Esta a\u00e7\u00e3o n\u00e3o pode ser desfeita.\n\nTem certeza de que deseja continuar?",
+      "confirm": "Redefinir Todos os Dados",
+      "failed": {
+        "title": "Falha ao Redefinir",
+        "message": "N\u00e3o foi poss\u00edvel redefinir os dados locais. Por favor, tente novamente ou reinstale o app."
+      }
+    },
+    "time": {
+      "today": "Hoje",
+      "day": "dia",
+      "days": "dias",
+      "daysCount": "{{count}} dia",
+      "daysCount_other": "{{count}} dias"
+    },
+    "status": {
+      "normal": "Normal",
+      "irregular": "Irregular"
+    },
+    "navigation": {
+      "today": "Hoje",
+      "calendar": "Calend\u00e1rio",
+      "stats": "Estat\u00edsticas",
+      "settings": "Configura\u00e7\u00f5es",
+      "appName": "Bluma",
+      "notes": "Notas"
+    },
+    "cycleDetails": {
+      "cycleDay": "Dia {{number}} do ciclo",
+      "conceptionChance": {
+        "low": "Baixa chance de conceber",
+        "medium": "Chance m\u00e9dia de conceber",
+        "high": "Alta chance de conceber"
+      }
+    },
+    "loading": "Carregando..."
+  },
+  "home": {
+    "period": "Per\u00edodo",
+    "periodDay": "Dia {{number}}",
+    "nextPeriodIn": "Pr\u00f3xima menstrua\u00e7\u00e3o em",
+    "day": "dia",
+    "days": "dias",
+    "daysCount": "{{count}} dia",
+    "daysCount_other": "{{count}} dias",
+    "expectedToday": "Sua menstrua\u00e7\u00e3o est\u00e1 prevista para hoje",
+    "lateFor": "Atrasada h\u00e1",
+    "logPeriod": "Registrar menstrua\u00e7\u00e3o",
+    "logOrEdit": "Editar datas da menstrua\u00e7\u00e3o",
+    "noDataPrompt": "Registre o primeiro dia da sua \u00faltima menstrua\u00e7\u00e3o para a pr\u00f3xima previs\u00e3o.",
+    "learnAboutLatePeriods": "Saiba mais",
+    "cycleInsights": {
+      "title": "Informa\u00e7\u00f5es do ciclo",
+      "todaysInsights": "Informa\u00e7\u00f5es de hoje",
+      "cycleDay": "Dia do ciclo",
+      "cyclePhase": "Fase do ciclo",
+      "chanceToConceive": "Chance de conceber",
+      "emptyState": "Por favor, registre pelo menos uma menstrua\u00e7\u00e3o para ver as informa\u00e7\u00f5es do seu ciclo.",
+      "currentPhase": "Fase atual",
+      "Follicular": "Folicular",
+      "Ovulatory": "Ovulat\u00f3ria",
+      "Luteal": "L\u00fatea",
+      "Menstrual": "Menstrual",
+      "Extended": "Estendido",
+      "follicular": "Folicular",
+      "ovulatory": "Ovulat\u00f3ria",
+      "luteal": "L\u00fatea",
+      "menstrual": "Menstrual",
+      "extended": "Estendido",
+      "High": "Alta",
+      "high": "Alta",
+      "Medium": "M\u00e9dia",
+      "medium": "M\u00e9dia",
+      "Low": "Baixa",
+      "low": "Baixa",
+      "dayOfCycle": "Dia {{day}} de {{total}}",
+      "averageCycle": "Ciclo m\u00e9dio: {{days}} dias",
+      "nextPeriod": "Pr\u00f3xima menstrua\u00e7\u00e3o: {{date}}"
+    }
+  },
+  "info": {
+    "screenTitles": {
+      "todaysInsights": "Informa\u00e7\u00f5es de hoje",
+      "cycleLength": "Dura\u00e7\u00e3o do ciclo",
+      "periodLength": "Dura\u00e7\u00e3o da menstrua\u00e7\u00e3o",
+      "latePeriod": "Menstrua\u00e7\u00e3o atrasada",
+      "howPredictionsWork": "Como funcionam as previs\u00f5es"
+    },
+    "cyclePhase": {
+      "title": "Fases do ciclo",
+      "cycleDay": "Dia do ciclo",
+      "cycleStartedToday": "Seu ciclo come\u00e7ou hoje",
+      "cycleStartedOn": "Este ciclo come\u00e7ou em",
+      "cyclePhaseTitle": "Fase do ciclo",
+      "chanceToConceive": "Chance de conceber",
+      "possibleSymptoms": "Poss\u00edveis sintomas",
+      "phases": {
+        "menstrual": "Menstrual",
+        "follicular": "Folicular",
+        "ovulatory": "Ovulat\u00f3ria",
+        "luteal": "L\u00fatea",
+        "extended": "Estendido"
+      },
+      "phaseDescriptions": {
+        "menstrual": "O per\u00edodo, ou menstrua\u00e7\u00e3o, \u00e9 quando o revestimento do \u00fatero se desprende e sai do corpo atrav\u00e9s de sangramento vaginal. Normalmente dura de 3 a 7 dias, mas pode variar bastante.\n\nDurante esse tempo, o corpo se prepara para uma poss\u00edvel gravidez espessando o revestimento uterino. Se n\u00e3o ocorrer fertiliza\u00e7\u00e3o, os n\u00edveis hormonais caem e a menstrua\u00e7\u00e3o come\u00e7a.",
+        "follicular": "A fase folicular \u00e9 a primeira parte do ciclo menstrual, come\u00e7ando no primeiro dia da menstrua\u00e7\u00e3o e terminando na ovula\u00e7\u00e3o. Os n\u00edveis de energia come\u00e7am a subir com o aumento de estrog\u00eanio. Bom momento para come\u00e7ar novos projetos e atividade f\u00edsica.",
+        "ovulatory": "A ovula\u00e7\u00e3o \u00e9 a libera\u00e7\u00e3o de um \u00f3vulo do ov\u00e1rio. \u00c9 a janela de pico de fertilidade e normalmente ocorre por volta do dia 14 do seu ciclo.",
+        "luteal": "A fase l\u00fatea \u00e9 a segunda parte do ciclo menstrual, da ovula\u00e7\u00e3o at\u00e9 o in\u00edcio da pr\u00f3xima menstrua\u00e7\u00e3o, e normalmente dura cerca de 12 a 14 dias.\n\nDurante esse tempo, o corpo se prepara para uma poss\u00edvel gravidez espessando o revestimento uterino. Se n\u00e3o ocorrer fertiliza\u00e7\u00e3o, os n\u00edveis hormonais caem e a menstrua\u00e7\u00e3o come\u00e7a.",
+        "extended": "Seu ciclo est\u00e1 durando mais do que o habitual (al\u00e9m do dia 35). Isso pode ser normal \u00e0s vezes, mas se acontecer com frequ\u00eancia, considere acompanhar os padr\u00f5es e falar com um profissional de sa\u00fade."
+      },
+      "pregnancyChance": {
+        "high": "Alta",
+        "medium": "M\u00e9dia",
+        "low": "Baixa"
+      },
+      "pregnancyChanceDescriptions": {
+        "high": "Esta \u00e9 sua janela f\u00e9rtil, quando a concep\u00e7\u00e3o \u00e9 mais prov\u00e1vel. A ovula\u00e7\u00e3o normalmente ocorre durante esse per\u00edodo.",
+        "medium": "H\u00e1 uma chance moderada de concep\u00e7\u00e3o durante esse per\u00edodo, \u00e0 medida que voc\u00ea se aproxima ou se afasta da sua janela f\u00e9rtil.",
+        "low": "A concep\u00e7\u00e3o \u00e9 menos prov\u00e1vel durante esse per\u00edodo. Isso inclui os dias menstruais e a fase l\u00fatea mais avan\u00e7ada do seu ciclo."
+      },
+      "symptoms": {
+        "menstrual": "C\u00f3licas, cansa\u00e7o, altera\u00e7\u00f5es de humor, incha\u00e7o, dores de cabe\u00e7a e dor lombar. Sua energia e humor podem estar mais baixos do que o habitual.",
+        "follicular": "Energia em alta, humor melhor, pele mais limpa e maior motiva\u00e7\u00e3o. Voc\u00ea pode se sentir mais soci\u00e1vel e confiante.",
+        "ovulatory": "Energia no pico, desejo sexual aumentado, maior confian\u00e7a e poss\u00edveis c\u00f3licas leves ou manchas. Voc\u00ea pode se sentir no seu melhor.",
+        "luteal": "Incha\u00e7o, altera\u00e7\u00f5es de humor, desejo por comida, cansa\u00e7o, sensibilidade nos seios e irritabilidade. Esses sintomas de TPM normalmente pioram \u00e0 medida que a menstrua\u00e7\u00e3o se aproxima.",
+        "extended": ""
+      },
+      "menstrual": {
+        "title": "Fase menstrual",
+        "description": "O primeiro dia da sua menstrua\u00e7\u00e3o marca o in\u00edcio do seu ciclo menstrual."
+      },
+      "follicular": {
+        "title": "Fase folicular",
+        "description": "Esta fase come\u00e7a no primeiro dia da sua menstrua\u00e7\u00e3o e dura at\u00e9 a ovula\u00e7\u00e3o."
+      },
+      "ovulation": {
+        "title": "Ovula\u00e7\u00e3o",
+        "description": "\u00c9 quando um \u00f3vulo \u00e9 liberado do seu ov\u00e1rio."
+      },
+      "luteal": {
+        "title": "Fase l\u00fatea",
+        "description": "Esta fase come\u00e7a ap\u00f3s a ovula\u00e7\u00e3o e termina quando sua pr\u00f3xima menstrua\u00e7\u00e3o come\u00e7a."
+      }
+    },
+    "cycleLength": {
+      "title": "Entender seu ciclo",
+      "definitionBold": "Dura\u00e7\u00e3o do ciclo",
+      "definitionText": "\u00e9 contada do primeiro dia de uma menstrua\u00e7\u00e3o ao primeiro dia da pr\u00f3xima.",
+      "normalRange": {
+        "title": "Intervalo normal",
+        "acogPrefix": "De acordo com o",
+        "acogName": "American College of Obstetricians and Gynecologists (ACOG)\u00b9",
+        "acogSuffix": ", um ciclo menstrual normal normalmente dura entre",
+        "daysRange": "21 e 35 dias",
+        "variation": "A maioria das pessoas tem ciclos que variam alguns dias por m\u00eas, o que \u00e9 completamente normal."
+      },
+      "irregular": {
+        "title": "Ciclos irregulares",
+        "descriptionPrefix": "Ciclos irregulares s\u00e3o",
+        "daysRange": "menores que 21 dias ou maiores que 35 dias",
+        "descriptionSuffix": "e podem ser causados por v\u00e1rias raz\u00f5es, como:",
+        "causes": {
+          "hormonal": "Altera\u00e7\u00f5es hormonais",
+          "stress": "Estresse, viagens ou sono prejudicado",
+          "medical": "Condi\u00e7\u00f5es m\u00e9dicas",
+          "pcos": "S\u00edndrome dos ov\u00e1rios polic\u00edsticos (SOP)",
+          "weight": "Mudan\u00e7a significativa de peso ou exerc\u00edcio intenso",
+          "lifestage": "Puberdade ou perimenopausa",
+          "postpartum": "P\u00f3s-parto e amamenta\u00e7\u00e3o"
+        },
+        "dataNoteBold": "Dados de menstrua\u00e7\u00e3o inseridos incorretamente",
+        "dataNote": "podem fazer com que a Bluma indique uma dura\u00e7\u00e3o de ciclo anormal. Na maioria das vezes, isso resulta de esquecer de registrar a menstrua\u00e7\u00e3o. Acompanhar seus ciclos por pelo menos 3 a 6 meses ajudar\u00e1 a estabelecer um padr\u00e3o."
+      },
+      "seeDoctor": {
+        "title": "Quando consultar um m\u00e9dico?",
+        "description": "Se seus ciclos forem frequentemente anormais em dura\u00e7\u00e3o, e/ou acompanhados de outros sintomas preocupantes, o melhor \u00e9 falar com seu profissional de sa\u00fade. Eles podem ajudar a entender a causa e sugerir tratamento, se necess\u00e1rio."
+      },
+      "disclaimerBold": "IMPORTANTE!",
+      "disclaimer": "A Bluma n\u00e3o \u00e9 uma ferramenta de diagn\u00f3stico. As informa\u00e7\u00f5es da Bluma n\u00e3o substituem o aconselhamento de um profissional de sa\u00fade. Procure sempre o aconselhamento do seu m\u00e9dico ou outro profissional de sa\u00fade qualificado sobre qualquer d\u00favida em rela\u00e7\u00e3o ao seu ciclo.",
+      "references": {
+        "title": "Refer\u00eancias",
+        "acog": "1. Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Practice Bulletin. Number 128, July 2012. American College of Obstetricians and Gynecologists."
+      }
+    },
+    "periodLength": {
+      "title": "Entender sua menstrua\u00e7\u00e3o",
+      "definitionBold": "Dura\u00e7\u00e3o da menstrua\u00e7\u00e3o",
+      "definitionText": "\u00e9 contada do primeiro ao \u00faltimo dia de sangramento menstrual, de qualquer volume.",
+      "normal": {
+        "title": "Dura\u00e7\u00e3o normal da menstrua\u00e7\u00e3o",
+        "acogPrefix": "De acordo com o",
+        "acogName": "American College of Obstetricians and Gynecologists (ACOG)\u00b9",
+        "acogSuffix": ", uma dura\u00e7\u00e3o normal da menstrua\u00e7\u00e3o normalmente dura entre",
+        "daysRange": "2 e 7 dias",
+        "variation": "A dura\u00e7\u00e3o da menstrua\u00e7\u00e3o pode variar de ciclo para ciclo, o que \u00e9 completamente normal."
+      },
+      "irregular": {
+        "title": "Menstrua\u00e7\u00f5es irregulares",
+        "description": "Menstrua\u00e7\u00f5es irregulares (menores que 2 dias ou maiores que 7 dias) podem ser causadas por mudan\u00e7as de estilo de vida, medica\u00e7\u00e3o, estresse, viagens e outros fatores que podem afetar os n\u00edveis hormonais.",
+        "dataNoteBold": "Dados de menstrua\u00e7\u00e3o inseridos incorretamente",
+        "dataNote": "podem ser a raz\u00e3o pela qual a dura\u00e7\u00e3o da sua menstrua\u00e7\u00e3o \u00e9 classificada como prolongada ou curta. Voc\u00ea sempre pode corrigir qualquer evento do seu ciclo no menu do calend\u00e1rio."
+      },
+      "seeDoctor": {
+        "title": "Quando consultar um m\u00e9dico?",
+        "description": "Se a dura\u00e7\u00e3o da sua menstrua\u00e7\u00e3o for frequentemente anormal, e/ou acompanhada de outros sintomas preocupantes, o melhor \u00e9 falar com seu profissional de sa\u00fade. Eles podem ajudar a entender a causa e sugerir tratamento, se necess\u00e1rio."
+      },
+      "disclaimerBold": "IMPORTANTE!",
+      "disclaimer": "A Bluma n\u00e3o \u00e9 uma ferramenta de diagn\u00f3stico. As informa\u00e7\u00f5es da Bluma n\u00e3o substituem o aconselhamento de um profissional de sa\u00fade. Procure sempre o aconselhamento do seu m\u00e9dico ou outro profissional de sa\u00fade qualificado sobre qualquer d\u00favida em rela\u00e7\u00e3o ao seu ciclo.",
+      "references": {
+        "title": "Refer\u00eancias",
+        "acog": "1. Your First Period. American College of Obstetricians and Gynecologists. FAQ for patients."
+      }
+    },
+    "latePeriod": {
+      "title": "Menstrua\u00e7\u00e3o atrasada",
+      "description": "Uma menstrua\u00e7\u00e3o atrasada pode ser causada por estresse, mudan\u00e7as de peso ou altera\u00e7\u00f5es hormonais. Se sua menstrua\u00e7\u00e3o estiver atrasada mais de uma semana, considere fazer um teste de gravidez ou consultar seu profissional de sa\u00fade.",
+      "whatMeans": {
+        "title": "O que significa que sua menstrua\u00e7\u00e3o est\u00e1 atrasada?",
+        "description": "Uma menstrua\u00e7\u00e3o \u00e9 geralmente considerada atrasada quando passa mais de 5 a 7 dias da data prevista. Os ciclos podem variar naturalmente alguns dias por m\u00eas, ent\u00e3o um atraso ocasional \u00e9 normal."
+      },
+      "causes": {
+        "title": "Causas comuns",
+        "stressBold": "Estresse:",
+        "stressSuffix": " Estresse alto afeta os horm\u00f4nios que regulam seu ciclo",
+        "weightBold": "Mudan\u00e7as de peso:",
+        "weightSuffix": " Ganho ou perda significativa podem atrasar a menstrua\u00e7\u00e3o",
+        "exerciseBold": "Exerc\u00edcio:",
+        "exerciseSuffix": " Treino intenso pode parar temporariamente a menstrua\u00e7\u00e3o",
+        "sleepBold": "Sono prejudicado:",
+        "sleepSuffix": " Padr\u00f5es de sono irregulares afetam os horm\u00f4nios",
+        "illnessBold": "Doen\u00e7a:",
+        "illnessSuffix": " Estar doente pode desregular o ritmo do seu ciclo",
+        "medicationsBold": "Medicamentos:",
+        "medicationsSuffix": " Anticoncepcionais, antibi\u00f3ticos e outros rem\u00e9dios",
+        "pcosBold": "SOP:",
+        "pcosSuffix": " A s\u00edndrome dos ov\u00e1rios polic\u00edsticos causa ciclos irregulares",
+        "pregnancyBold": "Gravidez:",
+        "pregnancySuffix": " Obviamente, a raz\u00e3o mais comum",
+        "perimenopauseBold": "Perimenopausa:",
+        "perimenopauseSuffix": " Transi\u00e7\u00e3o natural antes da menopausa"
+      },
+      "seeDoctor": {
+        "title": "Quando consultar um m\u00e9dico",
+        "description": "Consulte um profissional de sa\u00fade se sua menstrua\u00e7\u00e3o estiver atrasada h\u00e1 mais de 3 meses, se voc\u00ea tiver dores fortes ou se tiver tido rela\u00e7\u00f5es sexuais desprotegidas e puder estar gr\u00e1vida. Mudan\u00e7as s\u00fabitas na regularidade do ciclo tamb\u00e9m merecem uma consulta."
+      },
+      "whatToDo": {
+        "title": "O que voc\u00ea pode fazer",
+        "pregnancy": "Fa\u00e7a um teste de gravidez se houver qualquer possibilidade",
+        "stress": "Maneje o estresse com medita\u00e7\u00e3o, exerc\u00edcio ou terapia",
+        "weight": "Mantenha um peso saud\u00e1vel para seu corpo",
+        "sleep": "Durma de forma consistente e com qualidade",
+        "track": "Acompanhe seus ciclos para identificar padr\u00f5es",
+        "patience": "Tenha paci\u00eancia, irregularidade ocasional \u00e9 normal"
+      },
+      "disclaimerBold": "IMPORTANTE!",
+      "disclaimer": "A Bluma n\u00e3o \u00e9 uma ferramenta de diagn\u00f3stico. As informa\u00e7\u00f5es da Bluma n\u00e3o substituem o aconselhamento de um profissional de sa\u00fade. Procure sempre o aconselhamento do seu m\u00e9dico ou outro profissional de sa\u00fade qualificado sobre qualquer d\u00favida em rela\u00e7\u00e3o ao seu ciclo.",
+      "references": {
+        "title": "Refer\u00eancias",
+        "acog": "1. American College of Obstetricians and Gynecologists. Abnormal Uterine Bleeding in Reproductive-Aged Women. Practice Bulletin No. 128, julho 2012."
+      }
+    },
+    "prediction": {
+      "title": "Como funcionam as previs\u00f5es",
+      "description": "A Bluma prev\u00ea sua pr\u00f3xima menstrua\u00e7\u00e3o com base no seu hist\u00f3rico de ciclos. Quanto mais dados voc\u00ea registrar, mais precisas ser\u00e3o as previs\u00f5es.",
+      "nextPeriod": {
+        "title": "Previs\u00e3o da pr\u00f3xima menstrua\u00e7\u00e3o",
+        "description": "Sua pr\u00f3xima menstrua\u00e7\u00e3o \u00e9 prevista somando a dura\u00e7\u00e3o m\u00e9dia do seu ciclo \u00e0 data de in\u00edcio da sua menstrua\u00e7\u00e3o mais recente."
+      },
+      "cycleLengthCalc": {
+        "title": "C\u00e1lculo da dura\u00e7\u00e3o do ciclo",
+        "description": "A Bluma calcula a dura\u00e7\u00e3o m\u00e9dia do seu ciclo usando uma m\u00e9dia ponderada dos seus \u00faltimos 6 ciclos, uma abordagem comum no acompanhamento de ciclos.",
+        "weighting": "Os ciclos recentes t\u00eam mais influ\u00eancia nas previs\u00f5es do que os mais antigos. Por exemplo, ciclo mais recente: 100%, segundo mais recente: 80%, terceiro mais recente: 60%, e assim por diante."
+      },
+      "ovulation": {
+        "title": "Ovula\u00e7\u00e3o e fertilidade",
+        "description": "A ovula\u00e7\u00e3o \u00e9 prevista para ocorrer 14 dias antes da sua pr\u00f3xima menstrua\u00e7\u00e3o esperada. Sua janela f\u00e9rtil inclui:",
+        "fertileWindow": "\u2022 5 dias antes da ovula\u00e7\u00e3o \u2022 Dia da ovula\u00e7\u00e3o \u2022 1 dia ap\u00f3s a ovula\u00e7\u00e3o"
+      },
+      "accuracy": {
+        "title": "A precis\u00e3o melhora com o tempo",
+        "description": "Quanto mais menstrua\u00e7\u00f5es voc\u00ea acompanhar, mais precisas ser\u00e3o as previs\u00f5es. Com 3 ou mais ciclos, a Bluma pode fornecer previs\u00f5es personalizadas com base nos seus padr\u00f5es \u00fanicos."
+      },
+      "privacy": {
+        "title": "Privacidade em primeiro lugar",
+        "description": "Todos os c\u00e1lculos s\u00e3o feitos localmente no seu dispositivo. Seus dados de menstrua\u00e7\u00e3o nunca saem do seu celular e nunca s\u00e3o compartilhados com ningu\u00e9m."
+      },
+      "disclaimerPrefix": "\ud83d\udece\ufe0f ",
+      "disclaimerBold": "Lembre-se",
+      "disclaimerSuffix": ": Estas s\u00e3o previs\u00f5es baseadas nos seus dados hist\u00f3ricos. Cada corpo \u00e9 diferente e os ciclos podem variar naturalmente."
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Seu per\u00edodo, seus dados",
+      "subtitle": "Acompanhe seu ciclo menstrual sem abrir m\u00e3o da sua privacidade.",
+      "badgeStorage": "Armazenado localmente e criptografado",
+      "badgeNoTracking": "Sem an\u00fancios nem rastreamento externo"
+    },
+    "periodLength": {
+      "title": "Quanto tempo sua menstrua\u00e7\u00e3o costuma durar?",
+      "checkboxText": "N\u00e3o sei - que o app calcule",
+      "checkboxSubtext": "O app usar\u00e1 5 dias como padr\u00e3o e depois ajustar\u00e1 conforme voc\u00ea for registrando os ciclos."
+    },
+    "cycleLength": {
+      "title": "Quantos dias dura em m\u00e9dia seu ciclo?",
+      "subtitle": "\u00c9 o n\u00famero de dias do in\u00edcio de uma menstrua\u00e7\u00e3o ao in\u00edcio da pr\u00f3xima.",
+      "checkboxText": "N\u00e3o sei - que o app calcule",
+      "checkboxSubtext": "O app usar\u00e1 28 dias como padr\u00e3o e depois ajustar\u00e1 conforme voc\u00ea for registrando os ciclos."
+    },
+    "lastPeriod": {
+      "title": "Quando come\u00e7ou sua \u00faltima menstrua\u00e7\u00e3o?",
+      "subtitle": "Isso ajudar\u00e1 a prever sua pr\u00f3xima menstrua\u00e7\u00e3o.",
+      "checkboxText": "N\u00e3o lembro",
+      "checkboxSubtext": "Tudo bem, voc\u00ea pode fazer isso depois dentro do app.",
+      "continue": "Continuar"
+    },
+    "success": {
+      "title": "Tudo pronto!",
+      "subtitle": "As previs\u00f5es ficam mais precisas depois de registrar 3 a 6 ciclos. Continue acompanhando com regularidade para melhores resultados.",
+      "button": "Come\u00e7ar a acompanhar"
+    },
+    "continue": "Continuar"
+  },
+  "health": {
+    "symptoms": {
+      "title": "Sintomas",
+      "im-okay": "Estou bem",
+      "headache": "Dor de cabe\u00e7a",
+      "cramps": "C\u00f3licas",
+      "bloating": "Incha\u00e7o",
+      "backache": "Dor nas costas",
+      "acne": "Acne",
+      "tender-breasts": "Seios sens\u00edveis",
+      "nausea": "N\u00e1usea",
+      "fatigue": "Cansa\u00e7o",
+      "insomnia": "Ins\u00f4nia",
+      "diarrhea": "Diarreia",
+      "constipation": "Pris\u00e3o de ventre",
+      "hot-flashes": "Fogachos",
+      "night-sweats": "Suores noturnos",
+      "brain-fog": "Neblina mental",
+      "joint-pain": "Dor articular",
+      "dizziness": "Tontura",
+      "cravings": "Desejos",
+      "frequent-urination": "Mic\u00e7\u00e3o frequente",
+      "vaginal-dryness": "Secura vaginal"
+    },
+    "moods": {
+      "title": "Humor",
+      "calm": "Calma",
+      "happy": "Feliz",
+      "energetic": "Energ\u00e9tica",
+      "sad": "Triste",
+      "anxious": "Ansiosa",
+      "confused": "Confusa",
+      "irritated": "Irritada",
+      "angry": "Brava",
+      "mood-swings": "Altera\u00e7\u00f5es de humor",
+      "frisky": "Brincalhona",
+      "apathetic": "Ap\u00e1tica",
+      "bored": "Entediada"
+    },
+    "flows": {
+      "title": "Fluxo",
+      "light": "Leve",
+      "medium": "M\u00e9dio",
+      "heavy": "Forte",
+      "blood-clots": "Co\u00e1gulos"
+    },
+    "discharge": {
+      "title": "Corrimento",
+      "no-discharge": "Sem corrimento",
+      "watery": "Aquoso",
+      "creamy": "Cremoso",
+      "egg-white": "Clara de ovo",
+      "sticky": "Pegajoso",
+      "spotting": "Manchas",
+      "unusual": "Incomum",
+      "grey-discharge": "Corrimento cinza"
+    },
+    "tracking": {
+      "title": "Registre sua sa\u00fade",
+      "screenTitle": "Registro de sintomas",
+      "selectAll": "Selecione todos os que se aplicam",
+      "save": "Salvar",
+      "cancel": "Cancelar",
+      "flow": "Fluxo menstrual",
+      "symptoms": "Sintomas",
+      "moods": "Humores",
+      "discharge": "Corrimento vaginal",
+      "notes": "Notas",
+      "notesPlaceholder": "Adicione notas, outros sintomas, etc.",
+      "notesEditorPlaceholder": "Adicione notas, outros sintomas ou como voc\u00ea tem se sentido...",
+      "successMessage": "Dados de sa\u00fade salvos",
+      "errorMessage": "Erro. Por favor, tente novamente."
+    },
+    "quickHealthSelector": {
+      "title": "Como voc\u00ea se sente hoje?",
+      "add": "Adicionar",
+      "note": "Nota",
+      "noSymptomsToday": "Registre sintomas para descobrir os padr\u00f5es do seu corpo",
+      "noSymptomsThisDate": "Registre sintomas para descobrir os padr\u00f5es do seu corpo"
+    }
+  },
+  "notifications": {
+    "periodReminder": {
+      "title": "Sua menstrua\u00e7\u00e3o deve come\u00e7ar em breve",
+      "body": "Sua menstrua\u00e7\u00e3o est\u00e1 prevista para {{dayOfWeek}}, {{date}}"
+    },
+    "periodStarting": {
+      "title": "Sua menstrua\u00e7\u00e3o pode come\u00e7ar hoje",
+      "body": "Sua menstrua\u00e7\u00e3o pode come\u00e7ar hoje. Registre no app!"
+    },
+    "periodLate": {
+      "title": "Sua menstrua\u00e7\u00e3o est\u00e1 atrasada",
+      "body": "Sua menstrua\u00e7\u00e3o era esperada ontem. Voc\u00ea esqueceu de registrar?"
+    }
+  }
+}

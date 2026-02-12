@@ -1,0 +1,708 @@
+{
+  "settings": {
+    "title": "Settings",
+    "reminders": "Reminders",
+    "appLock": "App lock",
+    "privacyPolicy": "Privacy policy",
+    "about": "About",
+    "theme": "Theme",
+    "calendarView": "Calendar view",
+    "deleteData": "Delete all data",
+    "screenTitles": {
+      "reminders": "Reminders",
+      "appLock": "App Lock",
+      "about": "About",
+      "privacyPolicy": "Privacy policy",
+      "calendarView": "Calendar view"
+    },
+    "deleteDataConfirm": {
+      "title": "Delete all data",
+      "message": "All your data will be permanently deleted: period tracking, symptoms, health logs, app settings, theme preferences, notification settings, and app lock configuration. This action cannot be undone.",
+      "delete": "Delete all data",
+      "cancel": "Cancel",
+      "success": "Success",
+      "successMessage": "All your data has been deleted. The app will now restart.",
+      "error": "Error",
+      "errorMessage": "Failed to delete data. Please try again."
+    },
+    "themeModal": {
+      "title": "Choose theme"
+    },
+    "themeOptions": {
+      "system": "System default",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "appLockSettings": {
+      "unlockApp": "Unlock app with biometric",
+      "unlockDescription": "Use your device's biometric authentication (e.g. fingerprint or face ID) to unlock Bluma",
+      "noDeviceSecurityDescription": "You need to setup your device's biometric authentication first to enable this feature.",
+      "error": {
+        "title": "Error",
+        "message": "Failed to update app lock settings. Unable to complete security update. Please try again.",
+        "rewrapFailed": "The security setting could not be applied. Your data is still safe with the old settings."
+      }
+    },
+    "lockScreen": {
+      "unlockApp": "Unlock Bluma",
+      "unlockButton": "Unlock"
+    },
+    "reminderSettings": {
+      "title": "Reminders",
+      "periodReminder": "Period reminder",
+      "description": "Get notified before your next period",
+      "daysBeforePeriod": "Days before period",
+      "days": "{{count}} day",
+      "days_other": "{{count}} days",
+      "beforePeriod": "Remind me 3 days before my next period is likely to start.",
+      "dayOfPeriod": "Remind me the day of my period start.",
+      "latePeriod": "Remind me if my period is late.",
+      "reminderTime": "Reminder time",
+      "loading": "Loading notification settings...",
+      "loadError": "Could not load notification settings",
+      "updateError": "Failed to update notification settings",
+      "permissionDialog": {
+        "title": "Enable Notifications",
+        "message": "To receive period reminders, please enable notifications for Bluma in your device settings.",
+        "cancel": "Cancel",
+        "openSettings": "Open Settings"
+      }
+    },
+    "aboutScreen": {
+      "title": "About Bluma",
+      "versionLabel": "Version",
+      "whatIs": {
+        "description": "Bluma is a privacy-first period tracking app designed to help you understand and manage your menstrual cycle."
+      },
+      "features": {
+        "title": "Features",
+        "periodTracking": "Period log and tracking",
+        "predictions": "Ovulation day and fertile window predictions",
+        "symptomsTracking": "Symptom and mood tracking",
+        "statistics": "Cycle statistics & history",
+        "insights": "Cycle phase insights",
+        "reminders": "Period reminders",
+        "lock": "Biometric app lock",
+        "theme": "Dark and light theme support"
+      },
+      "privacyFirst": {
+        "title": "Privacy First",
+        "description": "Bluma is designed with a privacy-first approach:",
+        "local": "All data is stored locally and encrypted",
+        "noTransmission": "No data transmission to external servers",
+        "noTracking": "No third-party analytics or tracking",
+        "noAds": "No ads",
+        "noAccount": "No account required"
+      },
+      "openSource": {
+        "title": "Open Source",
+        "description": "Bluma is open-source and licensed under the",
+        "warranty": "Bluma is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "viewSource": "View the source on GitHub"
+      },
+      "developer": {
+        "title": "About the Developer",
+        "description": "Bluma was created by Maribel, a Product Designer and Developer passionate about privacy-respecting software. Bluma was built to provide a trustworthy alternative to period trackers that collect and monetize personal health data."
+      },
+      "technical": {
+        "title": "Technical Details",
+        "description": "Bluma is built using modern technologies to ensure reliability and performance:",
+        "framework": "Framework: React Native with Expo SDK 54",
+        "database": "Database: SQLite with Drizzle ORM",
+        "encryption": "Encryption: SQLCipher",
+        "architecture": "Architecture: Offline-first, no backend server",
+        "language": "Programming language: TypeScript",
+        "platform": "Platform: Android"
+      },
+      "footer": {
+        "prefix": "For support or feedback, please contact us at: ",
+        "email": "help.bluma@gmail.com",
+        "suffix": "."
+      }
+    },
+    "privacyPolicyScreen": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated:",
+      "introduction": {
+        "description": "This Privacy Policy sets out how the app Bluma uses and protects your personal data that you generate and store within the app."
+      },
+      "dataUse": {
+        "title": "1. Data Use",
+        "descriptionPrefix": "Bluma respects your privacy. There is no collection of usage data or personal information. Bluma stores data related to your menstrual health",
+        "descriptionBold": "locally on your device",
+        "descriptionSuffix": ", and this includes:",
+        "periodDates": "Period start and end dates",
+        "cycleLength": "Cycle length and period duration",
+        "symptoms": "Symptoms and mood tracking data",
+        "notes": "Notes and personal observations",
+        "settings": "App preferences and settings",
+        "usage": "This data is used solely to provide you with period predictions, cycle insights, and personalized tracking features. We do not share, sell, or transmit your personal health data to any third parties.",
+        "deletion": "If you wish to delete all your app data, you can do so by going to the settings menu and selecting \"Delete all data\". This will permanently erase all tracking data, health logs, and app settings. You can also delete all data by uninstalling the app."
+      },
+      "permissions": {
+        "title": "2. Permissions",
+        "description": "Bluma may request the following permissions:",
+        "reminders": "",
+        "remindersBold": "Reminders",
+        "remindersSuffix": ": To send you period reminders.",
+        "biometric": "",
+        "biometricBold": "Biometric authentication",
+        "biometricSuffix": ": To secure your app with fingerprint or face recognition.",
+        "revoke": "If you don't want to use any of these permissions, you can revoke them at any time through your device settings."
+      },
+      "transparency": {
+        "title": "3. Transparency",
+        "description": "We believe in complete transparency about how your data is handled:",
+        "localStorage": "All your data is stored locally and encrypted",
+        "noTransmission": "No data is transmitted to external servers",
+        "noAnalytics": "We do not use analytics or tracking services",
+        "noAds": "No third-party advertising or data collection",
+        "control": "You have full control over your data and can delete it at any time through the settings menu."
+      },
+      "footer": {
+        "prefix": "If you have any questions about this privacy policy or how we handle your data, please contact us at ",
+        "email": "help.bluma@gmail.com",
+        "suffix": "."
+      }
+    }
+  },
+  "stats": {
+    "title": "Statistics",
+    "cycleStatistics": "Cycle statistics",
+    "screenTitles": {
+      "cycleDetails": "Cycle details"
+    },
+    "emptyState": {
+      "title": "No cycle data yet",
+      "subtitle": "Log at least 2 periods to see your personal cycle statistics and history.",
+      "logPeriodButton": "Log period"
+    },
+    "cycleHistory": {
+      "title": "Cycle history",
+      "noCycles": "Not enough data yet",
+      "cycleLength": "Cycle length",
+      "periodLength": "Period length",
+      "days": "{{count}} day",
+      "days_other": "{{count}} days",
+      "inProgress": "In progress",
+      "loggedCycles": "logged cycles",
+      "currentCycle": "Current cycle",
+      "unknown": "Unknown"
+    },
+    "cycleDetails": {
+      "cycleNormalRange": "The length of this cycle was within the normal range (21-35 days)",
+      "cycleIrregularRange": "This cycle length is outside the normal range (21-35 days)",
+      "periodNormalRange": "The length of this period was within the normal range (2-7 days)",
+      "periodIrregularRange": "This period length is outside the normal range (2-7 days)",
+      "periodOverdue": "Your period is {{count}} day late.",
+      "periodOverdue_other": "Your period is {{count}} days late.",
+      "periodOverdueBefore": "Your period is ",
+      "periodOverdueAfter": " late.",
+      "learnAboutLatePeriod": "Learn why your period might be late",
+      "cycleLasted": "Cycle lasted from {{startDate}} to {{endDate}}",
+      "cycleLastedBefore": "Cycle lasted from ",
+      "cycleLastedMiddle": " to "
+    },
+    "averages": {
+      "title": "Averages",
+      "cycleLength": "Average cycle length",
+      "periodLength": "Average period length",
+      "days": "{{count}} day",
+      "days_other": "{{count}} days"
+    },
+    "predictions": {
+      "title": "Predictions",
+      "nextPeriod": "Next period",
+      "nextOvulation": "Next ovulation",
+      "fertileWindow": "Fertile window"
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "selectDate": "Select a date",
+    "periodDates": "Period dates",
+    "ovulationDay": "Ovulation day",
+    "fertileWindow": "Fertile window",
+    "prediction": "Prediction",
+    "today": "Today",
+    "editPeriod": {
+      "title": "Edit Period",
+      "editPeriodDates": "Edit period dates",
+      "selectDates": "Select the dates of your period",
+      "instructions": "Tap on the calendar to select or deselect dates",
+      "save": "Save",
+      "cancel": "Cancel",
+      "successMessage": "Period dates saved",
+      "errorMessage": "Error. Please try again.",
+      "delete": "Delete period",
+      "confirmDelete": "Are you sure you want to delete this period?"
+    },
+    "view": {
+      "title": "Calendar view",
+      "displayOptions": "Display options",
+      "showOvulation": "Show ovulation day and fertile window on the calendar",
+      "showFuturePeriods": "Show future periods prediction on the calendar",
+      "iconsShown": "Icons shown on calendar",
+      "loadingSettings": "Loading calendar settings..."
+    },
+    "legend": {
+      "periodDays": "Period days",
+      "futurePrediction": "Future period prediction",
+      "ovulationDay": "Ovulation day",
+      "fertileWindow": "Fertile window",
+      "symptomsIndicator": "Symptoms log indicator"
+    },
+    "accessibility": {
+      "tapToDeselect": "Tap to deselect",
+      "tapToSelectPeriod": "Tap to select as period day",
+      "hasHealthLogs": "has health logs",
+      "selected": "selected",
+      "tapToView": "Tap to view details"
+    }
+  },
+  "common": {
+    "buttons": {
+      "save": "సేవ్ చేయండి",
+      "cancel": "రద్దు చేయి",
+      "delete": "Delete",
+      "getStarted": "ప్రారంభించండి",
+      "next": "Next",
+      "back": "Back",
+      "done": "పూర్తయింది",
+      "edit": "Edit",
+      "close": "Close",
+      "confirm": "Confirm",
+      "continue": "కొనసాగించు",
+      "resetAllData": "Reset All Data"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "loadFailed": "Failed to load data",
+      "saveFailed": "Failed to save",
+      "deleteFailed": "Failed to delete",
+      "database": {
+        "title": "Unable to Start App",
+        "generic": "We encountered an issue starting the app. Please try restarting.",
+        "orphaned": "Your encryption key was lost, but your encrypted database still exists. Your previous data cannot be recovered and must be reset to continue using the app."
+      }
+    },
+    "resetData": {
+      "title": "Reset All Local Data",
+      "message": "This will permanently delete all your health data, period tracking history, and settings. This action cannot be undone.\n\nAre you sure you want to continue?",
+      "confirm": "Reset All Data",
+      "failed": {
+        "title": "Reset Failed",
+        "message": "Unable to reset local data. Please try again or reinstall the app."
+      }
+    },
+    "time": {
+      "today": "Today",
+      "day": "day",
+      "days": "days",
+      "daysCount": "{{count}} day",
+      "daysCount_other": "{{count}} days"
+    },
+    "status": {
+      "normal": "Normal",
+      "irregular": "Irregular"
+    },
+    "navigation": {
+      "today": "ఈరోజు",
+      "calendar": "క్యాలెండర్",
+      "stats": "గణాంకాలు",
+      "settings": "సెట్టింగులు",
+      "appName": "Bluma",
+      "notes": "Notes"
+    },
+    "cycleDetails": {
+      "cycleDay": "Cycle day {{number}}",
+      "conceptionChance": {
+        "low": "Low chance to conceive",
+        "medium": "Medium chance to conceive",
+        "high": "High chance to conceive"
+      }
+    },
+    "loading": "Loading..."
+  },
+  "home": {
+    "period": "Period",
+    "periodDay": "Day {{number}}",
+    "nextPeriodIn": "Next period in",
+    "day": "day",
+    "days": "days",
+    "daysCount": "{{count}} day",
+    "daysCount_other": "{{count}} days",
+    "expectedToday": "Your period is expected today",
+    "lateFor": "Late for",
+    "logPeriod": "Log period",
+    "logOrEdit": "Edit period dates",
+    "noDataPrompt": "Log the first day of your last period for next prediction.",
+    "learnAboutLatePeriods": "Learn about late periods",
+    "cycleInsights": {
+      "title": "Cycle insights",
+      "todaysInsights": "Today's insights",
+      "cycleDay": "Cycle day",
+      "cyclePhase": "Cycle phase",
+      "chanceToConceive": "Chance to conceive",
+      "emptyState": "Please log at least one period to view your cycle insights.",
+      "currentPhase": "Current phase",
+      "Follicular": "Follicular",
+      "Ovulatory": "Ovulatory",
+      "Luteal": "Luteal",
+      "Menstrual": "Menstrual",
+      "Extended": "Extended",
+      "follicular": "Follicular",
+      "ovulatory": "Ovulatory",
+      "luteal": "Luteal",
+      "menstrual": "Menstrual",
+      "extended": "Extended",
+      "High": "High",
+      "high": "High",
+      "Medium": "Medium",
+      "medium": "Medium",
+      "Low": "Low",
+      "low": "Low",
+      "dayOfCycle": "Day {{day}} of {{total}}",
+      "averageCycle": "Average cycle: {{days}} days",
+      "nextPeriod": "Next period: {{date}}"
+    }
+  },
+  "info": {
+    "screenTitles": {
+      "todaysInsights": "Today's insights",
+      "cycleLength": "Cycle length",
+      "periodLength": "Period length",
+      "latePeriod": "Late period",
+      "howPredictionsWork": "How predictions work"
+    },
+    "cyclePhase": {
+      "title": "Cycle phases",
+      "cycleDay": "Cycle day",
+      "cycleStartedToday": "Your cycle started today",
+      "cycleStartedOn": "This cycle started on",
+      "cyclePhaseTitle": "Cycle phase",
+      "chanceToConceive": "Chance to conceive",
+      "possibleSymptoms": "Possible symptoms",
+      "phases": {
+        "menstrual": "Menstrual",
+        "follicular": "Follicular",
+        "ovulatory": "Ovulatory",
+        "luteal": "Luteal",
+        "extended": "Extended"
+      },
+      "phaseDescriptions": {
+        "menstrual": "The period, or menstruation, is when the lining of the uterus sheds and leaves the body through vaginal bleeding. It typically lasts 3–7 days, but can vary widely. \n\nDuring this time, the body prepares for a potential pregnancy by thickening the uterine lining. If fertilization does not occur, hormone levels drop, and menstruation begins.",
+        "follicular": "The follicular phase is the first part of the menstrual cycle, starting with the first day of your period and ending with ovulation. Energy levels start to rise with increasing estrogen. Good time for starting new projects and physical activity.",
+        "ovulatory": "Ovulation is the release of an egg from the ovary. This is the peak fertility window, and it typically occurs around day 14 of your cycle.",
+        "luteal": "The luteal phase is the second part of the menstrual cycle, lasting from ovulation until the start of your next period, and typically lasts about 12–14 days.\n\nDuring this time, the body prepares for a potential pregnancy by thickening the uterine lining. If fertilization does not occur, hormone levels drop, and menstruation begins.",
+        "extended": "Your cycle is running longer than usual (past day 35). This can be normal occasionally, but if it happens often, consider tracking patterns and chatting with a healthcare provider."
+      },
+      "pregnancyChance": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "pregnancyChanceDescriptions": {
+        "high": "This is your fertile window when conception is most likely to occur. Ovulation typically happens during this time.",
+        "medium": "There is a moderate chance of conception during this time as you approach or move away from your fertile window.",
+        "low": "Conception is less likely during this time. This includes menstrual days and the later luteal phase of your cycle."
+      },
+      "symptoms": {
+        "menstrual": "Cramps, fatigue, mood swings, bloating, headaches, and lower back pain. Your energy and mood may be lower than usual.",
+        "follicular": "Rising energy, improved mood, clearer skin, and increased motivation. You may feel more social and confident.",
+        "ovulatory": "Peak energy, heightened sex drive, increased confidence, and possible mild cramping or spotting. You may feel your most attractive.",
+        "luteal": "Bloating, mood swings, food cravings, fatigue, breast tenderness, and irritability. These PMS symptoms typically worsen as your period approaches.",
+        "extended": ""
+      },
+      "menstrual": {
+        "title": "Menstrual phase",
+        "description": "The first day of your period marks the beginning of your menstrual cycle."
+      },
+      "follicular": {
+        "title": "Follicular phase",
+        "description": "This phase starts on the first day of your period and lasts until ovulation."
+      },
+      "ovulation": {
+        "title": "Ovulation",
+        "description": "This is when an egg is released from your ovary."
+      },
+      "luteal": {
+        "title": "Luteal phase",
+        "description": "This phase begins after ovulation and ends when your next period starts."
+      }
+    },
+    "cycleLength": {
+      "title": "Understanding your cycle",
+      "definitionBold": "Cycle length",
+      "definitionText": "is counted from the first day of one period to the first day of the next period.",
+      "normalRange": {
+        "title": "Normal range",
+        "acogPrefix": "According to the",
+        "acogName": "American College of Obstetricians and Gynecologists (ACOG)¹",
+        "acogSuffix": ", a normal menstrual cycle typically lasts between",
+        "daysRange": "21 and 35 days",
+        "variation": "Most people have cycles that vary by a few days each month, which is completely normal."
+      },
+      "irregular": {
+        "title": "Irregular cycles",
+        "descriptionPrefix": "Irregular cycles are",
+        "daysRange": "shorter than 21 days or longer than 35 days",
+        "descriptionSuffix": "and can be caused by a variety of reasons, such as:",
+        "causes": {
+          "hormonal": "Hormonal changes",
+          "stress": "Stress, travel, or disrupted sleep",
+          "medical": "Medical conditions",
+          "pcos": "Polycystic ovary syndrome (PCOS)",
+          "weight": "Significant weight change or intense exercise",
+          "lifestage": "Puberty or perimenopause",
+          "postpartum": "Postpartum and breastfeeding"
+        },
+        "dataNoteBold": "Incorrectly entered period data",
+        "dataNote": "can cause Bluma to indicate an abnormal cycle length. Most often, this is the result of forget to log period. Tracking your cycles for at least 3-6 months will help establish a pattern."
+      },
+      "seeDoctor": {
+        "title": "When to see a doctor?",
+        "description": "If your cycles are frequently abnormal in length, or/and accompanied by other concerning symptoms, it's best to talk to your health care provider. They can help you figure out the cause and suggest treatment, if necessary."
+      },
+      "disclaimerBold": "IMPORTANT!",
+      "disclaimer": "Bluma is not a diagnostic tool. The information from Bluma does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
+      "references": {
+        "title": "References",
+        "acog": "1. Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Practice Bulletin. Number 128, July 2012. American College of Obstetricians and Gynecologists."
+      }
+    },
+    "periodLength": {
+      "title": "Understanding your period",
+      "definitionBold": "Period length",
+      "definitionText": "is counted from the first until the last day of menstrual bleeding of any volume.",
+      "normal": {
+        "title": "Normal period length",
+        "acogPrefix": "According to the",
+        "acogName": "American College of Obstetricians and Gynecologists (ACOG)¹",
+        "acogSuffix": ", a normal period length typically lasts between",
+        "daysRange": "2 and 7 days",
+        "variation": "Period length can vary from cycle to cycle, which is completely normal."
+      },
+      "irregular": {
+        "title": "Irregular periods",
+        "description": "Irregular periods (shorter than 2 days or longer than 7 days) might be caused by lifestyle changes, medication, stress, travel, and a few other factors that can affect hormone levels.",
+        "dataNoteBold": "Incorrectly entered period data",
+        "dataNote": "could be the reason your period length is labeled prolonged or shortened. You can always correct any event of you cycle retrospectively on the calendar menu."
+      },
+      "seeDoctor": {
+        "title": "When to see a doctor?",
+        "description": "If your period length is frequently abnormal in length, or/and accompanied by other concerning symptoms, it's best to talk to your health care provider. They can help you figure out the cause and suggest treatment, if necessary."
+      },
+      "disclaimerBold": "IMPORTANT!",
+      "disclaimer": "Bluma is not a diagnostic tool. The information from Bluma does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
+      "references": {
+        "title": "References",
+        "acog": "1. Your First Period. American College of Obstetricians and Gynecologists. FAQ for patients."
+      }
+    },
+    "latePeriod": {
+      "title": "Late period",
+      "description": "A late period can be caused by stress, changes in weight, or hormonal changes. If your period is more than a week late, consider taking a pregnancy test or consulting your healthcare provider.",
+      "whatMeans": {
+        "title": "What means that your period is late?",
+        "description": "A period is generally considered late when it's more than 5-7 days past your expected date. Cycles can naturally vary by a few days each month, so occasional lateness is normal."
+      },
+      "causes": {
+        "title": "Common causes",
+        "stressBold": "Stress:",
+        "stressSuffix": " High stress affects hormones that regulate your cycle",
+        "weightBold": "Weight changes:",
+        "weightSuffix": " Significant gain or loss can delay periods",
+        "exerciseBold": "Exercise:",
+        "exerciseSuffix": " Intense training can temporarily stop menstruation",
+        "sleepBold": "Sleep disruption:",
+        "sleepSuffix": " Irregular sleep patterns affect hormones",
+        "illnessBold": "Illness:",
+        "illnessSuffix": " Being sick can throw off your cycle timing",
+        "medicationsBold": "Medications:",
+        "medicationsSuffix": " Birth control, antibiotics, and other drugs",
+        "pcosBold": "PCOS:",
+        "pcosSuffix": " Polycystic ovary syndrome causes irregular cycles",
+        "pregnancyBold": "Pregnancy:",
+        "pregnancySuffix": " Obviously, the most common reason",
+        "perimenopauseBold": "Perimenopause:",
+        "perimenopauseSuffix": " Natural transition before menopause"
+      },
+      "seeDoctor": {
+        "title": "When to see a doctor",
+        "description": "Consult a healthcare provider if your period is more than 3 months late, if you experience severe pain, or if you've had unprotected sex and could be pregnant. Sudden changes in cycle regularity also warrant a check-up."
+      },
+      "whatToDo": {
+        "title": "What you can do",
+        "pregnancy": "Take a pregnancy test if there's any possibility",
+        "stress": "Manage stress through meditation, exercise, or therapy",
+        "weight": "Maintain a healthy weight for your body",
+        "sleep": "Get consistent, quality sleep",
+        "track": "Track your cycles to identify patterns",
+        "patience": "Be patient, occasional irregularity is normal"
+      },
+      "disclaimerBold": "IMPORTANT!",
+      "disclaimer": "Bluma is not a diagnostic tool. The information from Bluma does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
+      "references": {
+        "title": "References",
+        "acog": "1. American College of Obstetricians and Gynecologists. Abnormal Uterine Bleeding in Reproductive-Aged Women. Practice Bulletin No. 128, July 2012."
+      }
+    },
+    "prediction": {
+      "title": "How predictions work",
+      "description": "Bluma predicts your next period based on your cycle history. The more data you log, the more accurate the predictions become.",
+      "nextPeriod": {
+        "title": "Next period prediction",
+        "description": "Your next period is predicted by adding your average cycle length to the start date of your most recent period."
+      },
+      "cycleLengthCalc": {
+        "title": "Cycle length calculation",
+        "description": "Bluma calculates your average cycle length using a weighted average of your last 6 cycles, a commonly used approach in cycle tracking.",
+        "weighting": "Recent cycles have more influence on predictions than older ones. For example, most recent cycle: 100%, second most recent: 80%, third most recent: 60%, and so on."
+      },
+      "ovulation": {
+        "title": "Ovulation & fertility",
+        "description": "Ovulation is predicted to occur 14 days before your next expected period. Your fertile window includes:",
+        "fertileWindow": "• 5 days before ovulation • Ovulation day • 1 day after ovulation"
+      },
+      "accuracy": {
+        "title": "Accuracy improves over time",
+        "description": "The more periods you track, the more accurate predictions become. With 3+ cycles, Bluma can provide personalized predictions based on your unique patterns."
+      },
+      "privacy": {
+        "title": "Privacy first",
+        "description": "All calculations happen locally on your device. Your period data never leaves your phone and is never shared with anyone."
+      },
+      "disclaimerPrefix": "🛎️ ",
+      "disclaimerBold": "Remember",
+      "disclaimerSuffix": ": These are predictions based on your historical data. Every body is different, and cycles can vary naturally."
+    }
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "మీ పీరియడ్, మీ డేటా",
+      "subtitle": "మీ గోప్యతను కాపాడుకుంటూ మీ చక్రాన్ని ట్రాక్ చేయండి.",
+      "badgeStorage": "Locally stored and encrypted",
+      "badgeNoTracking": "No ads and no external tracking"
+    },
+    "periodLength": {
+      "title": "How long does your period usually last?",
+      "checkboxText": "Don't know - let the app learn",
+      "checkboxSubtext": "The app will use 5 days as a default, and then adjust as you log cycles."
+    },
+    "cycleLength": {
+      "title": "How many days does your cycle last on average?",
+      "subtitle": "This is the number of days from the start of one period to the start of the next.",
+      "checkboxText": "Don't know - let the app learn",
+      "checkboxSubtext": "The app will use 28 days as a default, and then adjust as you log cycles."
+    },
+    "lastPeriod": {
+      "title": "When was the start of your last period?",
+      "subtitle": "This will help us to predict your next period.",
+      "checkboxText": "I don't remember",
+      "checkboxSubtext": "It's okay, you can do it later inside the app.",
+      "continue": "Continue"
+    },
+    "success": {
+      "title": "You're all set!",
+      "subtitle": "Predictions become more accurate after logging 3-6 cycles. Keep tracking regularly for the best results.",
+      "button": "Start tracking"
+    },
+    "continue": "Continue"
+  },
+  "health": {
+    "symptoms": {
+      "title": "Symptoms",
+      "im-okay": "I'm okay",
+      "headache": "Headache",
+      "cramps": "Cramps",
+      "bloating": "Bloating",
+      "backache": "Backache",
+      "acne": "Acne",
+      "tender-breasts": "Tender breasts",
+      "nausea": "Nausea",
+      "fatigue": "Fatigue",
+      "insomnia": "Insomnia",
+      "diarrhea": "Diarrhea",
+      "constipation": "Constipation",
+      "hot-flashes": "Hot flashes",
+      "night-sweats": "Night sweats",
+      "brain-fog": "Brain fog",
+      "joint-pain": "Joint pain",
+      "dizziness": "Dizziness",
+      "cravings": "Cravings",
+      "frequent-urination": "Frequent urination",
+      "vaginal-dryness": "Vaginal dryness"
+    },
+    "moods": {
+      "title": "Mood",
+      "calm": "Calm",
+      "happy": "Happy",
+      "energetic": "Energetic",
+      "sad": "Sad",
+      "anxious": "Anxious",
+      "confused": "Confused",
+      "irritated": "Irritated",
+      "angry": "Angry",
+      "mood-swings": "Mood Swings",
+      "frisky": "Frisky",
+      "apathetic": "Apathetic",
+      "bored": "Bored"
+    },
+    "flows": {
+      "title": "Flow",
+      "light": "Light",
+      "medium": "Medium",
+      "heavy": "Heavy",
+      "blood-clots": "Blood clots"
+    },
+    "discharge": {
+      "title": "Discharge",
+      "no-discharge": "No discharge",
+      "watery": "Watery",
+      "creamy": "Creamy",
+      "egg-white": "Egg white",
+      "sticky": "Sticky",
+      "spotting": "Spotting",
+      "unusual": "Unusual",
+      "grey-discharge": "Grey discharge"
+    },
+    "tracking": {
+      "title": "Track your health",
+      "screenTitle": "Symptom tracking",
+      "selectAll": "Select all that apply",
+      "save": "Save",
+      "cancel": "Cancel",
+      "flow": "Menstrual flow",
+      "symptoms": "Symptoms",
+      "moods": "Moods",
+      "discharge": "Vaginal discharge",
+      "notes": "Notes",
+      "notesPlaceholder": "Add notes, any extra symptoms, etc.",
+      "notesEditorPlaceholder": "Add notes, any extra symptoms, or how you've been feeling...",
+      "successMessage": "Health data saved",
+      "errorMessage": "Error. Please try again."
+    },
+    "quickHealthSelector": {
+      "title": "How do you feel today?",
+      "add": "Add",
+      "note": "Note",
+      "noSymptomsToday": "Track symptoms to discover patterns",
+      "noSymptomsThisDate": "Track symptoms to discover patterns"
+    }
+  },
+  "notifications": {
+    "periodReminder": {
+      "title": "Your period should start soon",
+      "body": "Your period is expected on {{dayOfWeek}}, {{date}}"
+    },
+    "periodStarting": {
+      "title": "Your period might start today",
+      "body": "Your period might start today. Log it in the app!"
+    },
+    "periodLate": {
+      "title": "Your period is late",
+      "body": "Your period was expected yesterday. Did you forget to log your period?"
+    }
+  }
+}
