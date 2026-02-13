@@ -36,7 +36,7 @@ class WelcomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(
-                          'assets/icons/bluma-logo.png',
+                          'assets/icons/cicla-logo.png',
                           width: 200,
                           height: 55,
                         ),
