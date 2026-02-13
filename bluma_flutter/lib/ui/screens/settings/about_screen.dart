@@ -9,7 +9,7 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colors = context.colors;
-    const String githubUrl = 'https://github.com/blumaHQ/bluma-app';
+    const String githubUrl = 'https://github.com/ghazalialshafi/cicla';
     const String gplUrl = 'https://www.gnu.org/licenses/gpl-3.0.en.html';
 
     return Scaffold(
