@@ -44,7 +44,7 @@
       }
     },
     "lockScreen": {
-      "unlockApp": "Unlock Bluma",
+      "unlockApp": "Unlock Cicla",
       "unlockButton": "Unlock"
     },
     "reminderSettings": {
@@ -69,10 +69,10 @@
       }
     },
     "aboutScreen": {
-      "title": "About Bluma",
+      "title": "About Cicla",
       "versionLabel": "Version",
       "whatIs": {
-        "description": "Bluma is a privacy-first period tracking app designed to help you understand and manage your menstrual cycle."
+        "description": "Cicla is a privacy-first period tracking app designed to help you understand and manage your menstrual cycle."
       },
       "features": {
         "title": "Features",
@@ -87,7 +87,7 @@
       },
       "privacyFirst": {
         "title": "Privacy First",
-        "description": "Bluma is designed with a privacy-first approach:",
+        "description": "Cicla is designed with a privacy-first approach:",
         "local": "All data is stored locally and encrypted",
         "noTransmission": "No data transmission to external servers",
         "noTracking": "No third-party analytics or tracking",
@@ -96,27 +96,27 @@
       },
       "openSource": {
         "title": "Open Source",
-        "description": "Bluma is open-source and licensed under the",
-        "warranty": "Bluma is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "description": "Cicla is open-source",
+        "warranty": "Cicla is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY",
         "viewSource": "View the source on GitHub"
       },
       "developer": {
         "title": "About the Developer",
-        "description": "Bluma was created by Maribel, a Product Designer and Developer passionate about privacy-respecting software. Bluma was built to provide a trustworthy alternative to period trackers that collect and monetize personal health data."
+        "description": "Cicla was created by Ghazali, a Self-taught Polymath in progress."
       },
       "technical": {
         "title": "Technical Details",
-        "description": "Bluma is built using modern technologies to ensure reliability and performance:",
-        "framework": "Framework: React Native with Expo SDK 54",
-        "database": "Database: SQLite with Drizzle ORM",
+        "description": "Bluma is built using Flutter to ensure reliability and performance:",
+        "framework": "Framework: Flutter",
+        "database": "Database: SQLite",
         "encryption": "Encryption: SQLCipher",
-        "architecture": "Architecture: Offline-first, no backend server",
-        "language": "Programming language: TypeScript",
-        "platform": "Platform: Android"
+        "architecture": "Architecture: Offline-first, no server",
+        "language": "Programming language: Dart",
+        "platform": "Platform: Android not tested for IOS"
       },
       "footer": {
         "prefix": "For support or feedback, please contact us at: ",
-        "email": "help.bluma@gmail.com",
+        "email": "ghazalialshafi@gmail.com",
         "suffix": "."
       }
     },
@@ -124,11 +124,11 @@
       "title": "Privacy Policy",
       "lastUpdated": "Last updated:",
       "introduction": {
-        "description": "This Privacy Policy sets out how the app Bluma uses and protects your personal data that you generate and store within the app."
+        "description": "This Privacy Policy sets out how the app uses and protects your personal data that you generate and store within the app."
       },
       "dataUse": {
         "title": "1. Data Use",
-        "descriptionPrefix": "Bluma respects your privacy. There is no collection of usage data or personal information. Bluma stores data related to your menstrual health",
+        "descriptionPrefix": "Cicla respects your privacy. There is no collection of usage data or personal information. Bluma stores data related to your menstrual health",
         "descriptionBold": "locally on your device",
         "descriptionSuffix": ", and this includes:",
         "periodDates": "Period start and end dates",
@@ -141,7 +141,7 @@
       },
       "permissions": {
         "title": "2. Permissions",
-        "description": "Bluma may request the following permissions:",
+        "description": "Cicla may request the following permissions:",
         "reminders": "",
         "remindersBold": "Reminders",
         "remindersSuffix": ": To send you period reminders.",
@@ -160,8 +160,8 @@
         "control": "You have full control over your data and can delete it at any time through the settings menu."
       },
       "footer": {
-        "prefix": "If you have any questions about this privacy policy or how we handle your data, please contact us at ",
-        "email": "help.bluma@gmail.com",
+        "prefix": "If you have any questions about this privacy policy or how we handle your data, please contact my developer at ",
+        "email": "ghazalialshafi@gmail.com",
         "suffix": "."
       }
     }
