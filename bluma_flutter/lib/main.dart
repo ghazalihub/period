@@ -33,12 +33,6 @@ void main() async {
     EasyLocalization(
       supportedLocales: const [
         Locale('en'),
-        Locale('es'),
-        Locale('pt', 'BR'),
-        Locale('pt', 'PT'),
-        Locale('hi'),
-        Locale('te'),
-        Locale('ur'),
       ],
       path: 'assets/translations',
       fallbackLocale: const Locale('en'),
@@ -179,7 +173,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Bluma',
+      title: 'Cicla',
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
       locale: context.locale,
