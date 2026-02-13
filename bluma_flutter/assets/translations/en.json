@@ -128,7 +128,7 @@
       },
       "dataUse": {
         "title": "1. Data Use",
-        "descriptionPrefix": "Cicla respects your privacy. There is no collection of usage data or personal information. Bluma stores data related to your menstrual health",
+        "descriptionPrefix": "Cicla respects your privacy. There is no collection of usage data or personal information. Cicla stores data related to your menstrual health",
         "descriptionBold": "locally on your device",
         "descriptionSuffix": ", and this includes:",
         "periodDates": "Period start and end dates",
@@ -458,14 +458,14 @@
           "postpartum": "Postpartum and breastfeeding"
         },
         "dataNoteBold": "Incorrectly entered period data",
-        "dataNote": "can cause Bluma to indicate an abnormal cycle length. Most often, this is the result of forget to log period. Tracking your cycles for at least 3-6 months will help establish a pattern."
+        "dataNote": "can cause Cicla to indicate an abnormal cycle length. Most often, this is the result of forget to log period. Tracking your cycles for at least 3-6 months will help establish a pattern."
       },
       "seeDoctor": {
         "title": "When to see a doctor?",
         "description": "If your cycles are frequently abnormal in length, or/and accompanied by other concerning symptoms, it's best to talk to your health care provider. They can help you figure out the cause and suggest treatment, if necessary."
       },
       "disclaimerBold": "IMPORTANT!",
-      "disclaimer": "Bluma is not a diagnostic tool. The information from Bluma does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
+      "disclaimer": "Cicla is not a diagnostic tool. The information from Cicla does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
       "references": {
         "title": "References",
         "acog": "1. Diagnosis of Abnormal Uterine Bleeding in Reproductive-Aged Women. Practice Bulletin. Number 128, July 2012. American College of Obstetricians and Gynecologists."
