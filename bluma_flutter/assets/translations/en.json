@@ -35,7 +35,7 @@
     },
     "appLockSettings": {
       "unlockApp": "Unlock app with biometric",
-      "unlockDescription": "Use your device's biometric authentication (e.g. fingerprint or face ID) to unlock Bluma",
+      "unlockDescription": "Use your device's biometric authentication (e.g. fingerprint or face ID) to unlock",
       "noDeviceSecurityDescription": "You need to setup your device's biometric authentication first to enable this feature.",
       "error": {
         "title": "Error",
@@ -63,7 +63,7 @@
       "updateError": "Failed to update notification settings",
       "permissionDialog": {
         "title": "Enable Notifications",
-        "message": "To receive period reminders, please enable notifications for Bluma in your device settings.",
+        "message": "To receive period reminders, please enable notifications for app in your device settings.",
         "cancel": "Cancel",
         "openSettings": "Open Settings"
       }
@@ -102,11 +102,11 @@
       },
       "developer": {
         "title": "About the Developer",
-        "description": "Cicla was created by Ghazali, a Self-taught Polymath in progress."
+        "description": "Cicla is by Ghazali, it is a Flutter port of Bluma originally made by Maribel Ferreira."
       },
       "technical": {
         "title": "Technical Details",
-        "description": "Bluma is built using Flutter to ensure reliability and performance:",
+        "description": "Cicla is built using Flutter to ensure reliability and performance:",
         "framework": "Framework: Flutter",
         "database": "Database: SQLite",
         "encryption": "Encryption: SQLCipher",
@@ -115,7 +115,7 @@
         "platform": "Platform: Android not tested for IOS"
       },
       "footer": {
-        "prefix": "For support or feedback, please contact us at: ",
+        "prefix": "For support or feedback, please contact at: ",
         "email": "ghazalialshafi@gmail.com",
         "suffix": "."
       }
@@ -311,7 +311,7 @@
       "calendar": "Calendar",
       "stats": "Stats",
       "settings": "Settings",
-      "appName": "Bluma",
+      "appName": "Cicla",
       "notes": "Notes"
     },
     "cycleDetails": {
@@ -494,7 +494,7 @@
         "description": "If your period length is frequently abnormal in length, or/and accompanied by other concerning symptoms, it's best to talk to your health care provider. They can help you figure out the cause and suggest treatment, if necessary."
       },
       "disclaimerBold": "IMPORTANT!",
-      "disclaimer": "Bluma is not a diagnostic tool. The information from Bluma does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
+      "disclaimer": "Cicla is not a diagnostic tool. The information from Cicla does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
       "references": {
         "title": "References",
         "acog": "1. Your First Period. American College of Obstetricians and Gynecologists. FAQ for patients."
@@ -542,7 +542,7 @@
         "patience": "Be patient, occasional irregularity is normal"
       },
       "disclaimerBold": "IMPORTANT!",
-      "disclaimer": "Bluma is not a diagnostic tool. The information from Bluma does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
+      "disclaimer": "Cicla is not a diagnostic tool. The information from Cicla does not replace advice from a health care provider. Always seek the advice of your doctor or other qualified health provider with any questions you may have regarding your cycle.",
       "references": {
         "title": "References",
         "acog": "1. American College of Obstetricians and Gynecologists. Abnormal Uterine Bleeding in Reproductive-Aged Women. Practice Bulletin No. 128, July 2012."
@@ -550,14 +550,14 @@
     },
     "prediction": {
       "title": "How predictions work",
-      "description": "Bluma predicts your next period based on your cycle history. The more data you log, the more accurate the predictions become.",
+      "description": "Cicla predicts your next period based on your cycle history. The more data you log, the more accurate the predictions become.",
       "nextPeriod": {
         "title": "Next period prediction",
         "description": "Your next period is predicted by adding your average cycle length to the start date of your most recent period."
       },
       "cycleLengthCalc": {
         "title": "Cycle length calculation",
-        "description": "Bluma calculates your average cycle length using a weighted average of your last 6 cycles, a commonly used approach in cycle tracking.",
+        "description": "Cicla calculates your average cycle length using a weighted average of your last 6 cycles, a commonly used approach in cycle tracking.",
         "weighting": "Recent cycles have more influence on predictions than older ones. For example, most recent cycle: 100%, second most recent: 80%, third most recent: 60%, and so on."
       },
       "ovulation": {
@@ -567,7 +567,7 @@
       },
       "accuracy": {
         "title": "Accuracy improves over time",
-        "description": "The more periods you track, the more accurate predictions become. With 3+ cycles, Bluma can provide personalized predictions based on your unique patterns."
+        "description": "The more periods you track, the more accurate predictions become. With 3+ cycles, Cicla can provide personalized predictions based on your unique patterns."
       },
       "privacy": {
         "title": "Privacy first",
