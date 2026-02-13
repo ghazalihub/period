@@ -1,16 +1,26 @@
-# bluma_flutter
+# Cicla
 
-A new Flutter project.
+A Period tracking app build with Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/yourusername/cicla.git
+cd cicla
+flutter pub get
+flutter run 
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Disclaimer
+Cicla is still in trial and not production ready. Please always consult a healthcare professional for medical advice.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Privacy
+All data is stored locally on the device. Cicla does not collect or share personal data.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+
+Made by Ghazali
+
+## License
+
+This project is licensed under the MIT License.
